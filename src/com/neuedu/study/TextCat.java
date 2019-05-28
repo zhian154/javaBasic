@@ -57,13 +57,13 @@ public class TextCat {
         student.score=80+i;
         stus[i] = student;
         }
-        for (int i=0;i<stus.length;i++){
-            for (int j=0;j<stus.length;j++){
-                if (stus[j].score>stus[j+1].score){
-                    
-                }
-            }
-        }
+//        for (int i=0;i<stus.length;i++){
+//            for (int j=0;j<stus.length;j++){
+//                if (stus[j].score>stus[j+1].score){
+//
+//                }
+//            }
+//        }
         for(Students s:stus){
            System.out.println(s);
         }
