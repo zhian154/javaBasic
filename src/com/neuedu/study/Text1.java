@@ -4,7 +4,7 @@ public class Text1 {
     int width;
     int height;
     public void c(){
-        int a=width*2+height*2;
+        int a=(width+height)*2;
         System.out.println("长方体的周长是："+a);
     }
     public  void s(){
@@ -13,7 +13,7 @@ public class Text1 {
     }
     //有一个参数
     public  void c1(int i){
-        int a=width*2+height*2;
+        int a=(width+height)*2;
         System.out.println("长方体的周长是："+a);
     }
     public  void s1(int j) {
@@ -22,7 +22,7 @@ public class Text1 {
     }
     //有两个参数
     public  void c2(int width,int height){
-        int a=width*2+height*2;
+        int a=(width+height)*2;
         System.out.println("长方体的周长是："+a);
     }
     public  void s2(int width,int height) {
