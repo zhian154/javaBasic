@@ -11,18 +11,18 @@ public class Rectangular {
           并对其进行测试
         * */
     public static void main(String[] args) {
-        Text1 Rectangular= new Text1();
-        Rectangular.width=1;
-        Rectangular.height=1;
-        System.out.println("无参");
-        Rectangular.c();
-        Rectangular.s();
-        System.out.println("一个参数");
-        Rectangular.c1(5);
-        Rectangular.s1(3);
-        System.out.println("两个参数");
-        Rectangular.c2(3,7);
-        Rectangular.s2(6,8);
+//        TextCat Rectangular= new TextCat();
+//        Rectangular.width=1;
+//        Rectangular.height=1;
+//        System.out.println("无参");
+//        Rectangular.c();
+//        Rectangular.s();
+//        System.out.println("一个参数");
+//        Rectangular.c1(5);
+//        Rectangular.s1(3);
+//        System.out.println("两个参数");
+//        Rectangular.c2(3,7);
+//        Rectangular.s2(6,8);
 
 
 
