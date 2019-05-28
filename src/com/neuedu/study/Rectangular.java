@@ -15,14 +15,14 @@ public class Rectangular {
         Rectangular.width=1;
         Rectangular.height=1;
         System.out.println("无参");
-        Rectangular.oblong();
-        Rectangular.ovlong();
+        Rectangular.c();
+        Rectangular.s();
         System.out.println("一个参数");
-        Rectangular.oblong2(5);
-        Rectangular.ovlong2(3);
+        Rectangular.c1(5);
+        Rectangular.s1(3);
         System.out.println("两个参数");
-        Rectangular.oblong3(3,7);
-        Rectangular.ovlong3(6,8);
+        Rectangular.c2(3,7);
+        Rectangular.s2(6,8);
 
 
 
