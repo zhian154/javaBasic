@@ -8,10 +8,6 @@ public class computer {
     public computer(){
 
     }
-    public computer(char color,int cpuNum){
-        this.color=color;
-        this.cpuNum=cpuNum;
-    }
     public void  setColor(char color1){
         color=color1;
     }
@@ -23,6 +19,10 @@ public class computer {
     }
     public int getCpuNum(){
         return cpuNum;
+    }
+    public computer(char color,int cpuNum){
+        this.color=color;
+        this.cpuNum=cpuNum;
     }
     public void showTest2(){
         System.out.println("笔记本的颜色"+getColor());
