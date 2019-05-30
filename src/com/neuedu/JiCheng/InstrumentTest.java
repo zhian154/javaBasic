@@ -6,8 +6,8 @@ public class InstrumentTest {
         Instrument in = new Instrument();
         Wind w1 = new Wind();
         Brass b1 = new Brass();
-        w1.play();
         in.play();
+        w1.play();
         b1.play();
     }
 }
