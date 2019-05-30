@@ -27,4 +27,6 @@ public class Students {
         return "姓名"+sname+"成绩"+score;
     }
 
-}
+    }
+
+
