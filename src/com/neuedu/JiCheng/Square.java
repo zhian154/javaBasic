@@ -1,6 +1,6 @@
 package com.neuedu.JiCheng;
 
-public class Square {
+public class Square extends Figure{
         public double side;
         public double getSide() {
             return side;

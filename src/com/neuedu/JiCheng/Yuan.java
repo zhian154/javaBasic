@@ -1,6 +1,6 @@
 package com.neuedu.JiCheng;
 
-public class Yuan {
+public class Yuan extends Figure{
     /*
     * 定义一个图形类
     2 创建图形 圆形 正方形 有自己的属性
