@@ -1,6 +1,6 @@
 package com.neuedu.JiCheng;
 
-public class Wind {
+public class Wind extends Instrument{
     public void play(){
         System.out.println("~~");
     }
