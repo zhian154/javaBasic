@@ -7,11 +7,9 @@ public class GuiGu {
 
     行下去，最终必然得到 1
     */
-
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
             System.out.println("请输入一个自然数（完成鬼谷猜想）");
-
             int a = sc.nextInt();
             int a1=0;
             for(;;){
@@ -21,10 +19,13 @@ public class GuiGu {
                 }else{
                     a1=a*3+1;
 
-                }	a=a1;
+                }
+                a=a1;
                 System.out.println(a);
 
-                if(a==1)break;
+                if(a==1) {
+                    break;
+                }
             }
 
         }
