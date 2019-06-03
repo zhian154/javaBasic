@@ -18,6 +18,5 @@ public class homework3 {
             }
         }
         System.out.println("共有"+sum+"个不重复的三位数");
-
     }
 }
