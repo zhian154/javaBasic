@@ -1,18 +1,17 @@
 package com.neuedu.DuanWu;
 
-public class BaconPizza extends Pizza { //培根披萨类-->子类
-    //属性私有
+public class BaconPizza extends Pizza { //培根披萨
+
     private int gramNum; //克数
 
-    //get set方法
     public int getGramNum() {
         return gramNum;
     }
     public void setGramNum(int gramNum) {
         this.gramNum = gramNum;
     }
-
-    public BaconPizza() { //无参构造
+    public BaconPizza() {
+        //无参构造
         super();
     }
     //有参构造
@@ -22,7 +21,8 @@ public class BaconPizza extends Pizza { //培根披萨类-->子类
     }
 
     //重写shou方法
-    public String show(){ //方法重写
+    public String show(){
+        //方法重写
         return "名称:"+super.getName()+"\n价格:"+super.getPrice()+"元"+"\n大小:"+super.getSize()+"寸"+"\n培根克数:"+gramNum;
     }
 

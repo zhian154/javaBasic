@@ -1,12 +1,10 @@
 package com.neuedu.DuanWu;
 
-public class Pizza { //披萨类-->父类
-    //属性私有
+public class Pizza { //披萨类
     private int size;
     private int price;
     private String name;
 
-    //get set方法
     public int getSize() {
         return size;
     }
