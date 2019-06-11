@@ -10,7 +10,7 @@ public class YouJian {
 
             le.add(new Post("张三","翘街","黎平","贵州","中国","091"));
             le.add(new Post("李四","闸北","临沂","山东","中国","021"));
-            le.add(new Post("王五","徐汇","南京","江苏","中国","021"));
+            le.add(new Post("王五","永登","兰州","甘肃","中国","070311"));
 
             for(int i=0;i<le.size();i++)
             {
