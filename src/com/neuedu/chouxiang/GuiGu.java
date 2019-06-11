@@ -14,20 +14,15 @@ public class GuiGu {
             int a1=0;
             for(;;){
                 if(a%2==0){
-
                     a1=a/2;
                 }else{
                     a1=a*3+1;
-
                 }
                 a=a1;
                 System.out.println(a);
-
                 if(a==1) {
                     break;
                 }
             }
-
         }
-
     }
